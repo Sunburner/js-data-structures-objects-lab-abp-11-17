@@ -6,8 +6,6 @@ const driver = {
 
 //const key
 
-function updateDriverWithKeyAndValue() {
-  name: Sam
-  address: 11 Broadway
-
+function updateDriverWithKeyAndValue(driver, key, value) {
+  return object.assign({}, driver {[key]: value});
 }
